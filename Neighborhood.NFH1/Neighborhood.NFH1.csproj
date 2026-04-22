@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <OutputType>Library</OutputType>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Neighborhood.Shared\Neighborhood.Shared.csproj" />
+    <ProjectReference Include="..\Neighborhood.GFXLoader\Neighborhood.GFXLoader.csproj" />
+    <ProjectReference Include="..\Neighborhood.SFXLoader\Neighborhood.SFXLoader.csproj" />
+  </ItemGroup>
+</Project>

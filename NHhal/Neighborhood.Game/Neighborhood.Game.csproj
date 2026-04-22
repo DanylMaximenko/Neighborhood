@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Neighborhood.Loader\Neighborhood.Loader.csproj" />
+    <ProjectReference Include="..\Neighborhood.GFXLoader\Neighborhood.GFXLoader.csproj" />
+    <ProjectReference Include="..\Neighborhood.SFXLoader\Neighborhood.SFXLoader.csproj" />
+    <ProjectReference Include="..\Neighborhood.NFH1\Neighborhood.NFH1.csproj" />
+    <ProjectReference Include="..\Neighborhood.NFH2\Neighborhood.NFH2.csproj" />
+  </ItemGroup>
+</Project>
